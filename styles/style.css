@@ -4,6 +4,7 @@
     --primary-color: #5E3BEE;
     --secondary-color: #000;
     --primary-font: 'Roboto', sans-serif;
+    --def-font-size: 21px;
 }
 
 * {
@@ -12,6 +13,7 @@
     margin: 0;
     padding: 0;
     color: var(--secondary-color);
+    font-size: var(--def-font-size);
 }
 
 a {
@@ -21,6 +23,7 @@ a {
 
 a.active {
     color: var(--primary-color);
+
 }
 
 button {
@@ -40,43 +43,89 @@ button a {
     width: 8rem;
 }
 
-.header-container {
-    background-color: #fff;
-    padding: 20px 0;
+.nav-container {
+    padding: 25.33px 85px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.1);
+    font-weight: 100;
 }
 
-header {
+nav {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 20px;
+
 }
 
-header .logo img {
-    width: 200px;
+nav .logo img{
+    height: 40px;
 }
 
-header nav {
+.contact-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18.67px 30.3px;
+    gap: 2em;
+
+    width: 170.67px;
+    height: 69.35px;
+
+    border: 1.33px solid #5E3BEE;
+}
+
+.contact-button a{
+   
+    
+    font-weight: 400;
+   
+    line-height: 32px;
+    
+}
+
+.nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding: 0px;
     gap: 2em;
 }
 
-@media screen and (max-width: 768px) {
-    header .logo img {
-        width: 150px;
+.nav-menu a {
+    
+    display: flex;
+    height: 32px;
+    font-style: normal;
+    align-items: center;
+}
+
+@media screen and (max-width: 1032px) {
+    
+    .nav-container nav {
+        flex-direction: column;
+        gap: 2em;
     }
 
-    header {
+    .nav-menu {
         flex-direction: column;
+        padding: 0px 0;
+        align-items: center;
     }
 
-    header nav {
-        flex-direction: column;
-        padding: 20px 0;
+    .nav-menu {
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .contact-button{
+        flex: none;
+        order: 4;
+        flex-grow: 0;
     }
 }
