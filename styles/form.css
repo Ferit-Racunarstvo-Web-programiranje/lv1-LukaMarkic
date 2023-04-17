@@ -1,0 +1,335 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 149.333px 85.3333px;
+    gap: 64px;
+
+    height: 1421px;
+    
+}
+
+.form-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 21.33px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.form-title h2{
+    font-weight: 600;
+    font-size: 21.3333px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #282938;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.form-title div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form-title div h1{
+    
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #282938;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form-title div p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #1C1E53;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 1024px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.inputs div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10.67px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1; 
+}
+
+.inputs div label{
+    font-weight: 400;
+    font-size: 21.3333px;
+    line-height: 150%;
+
+    color: #282938;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.inputs div input{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+
+    background: #FFFFFF;
+    border: 1.33333px solid #5E3BEE;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+   
+}
+
+.form-select{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10.67px;
+
+    width: 100%;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form-select label{
+    font-weight: 400;
+    font-size: 21.3333px;
+    line-height: 150%;
+ 
+    color: #282938;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form-select select{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+
+    width: 100%;
+
+    background: #FFFFFF;
+    /* Primary */
+
+    border: 1.33333px solid #5E3BEE;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form-select select option{
+    font-weight: 400;
+    font-size: 21.3333px;
+    line-height: 150%;
+   
+    color: #282938;
+}
+
+.message-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10.67px;
+    
+
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;  
+}
+
+.message-input label{
+    font-weight: 400;
+    font-size: 21.3333px;
+    line-height: 150%;
+
+    color: #282938;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.message-input textarea{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+
+    height: 240px;
+    
+
+    background: #FFFFFF;
+
+    border: 1.33333px solid #5E3BEE;
+    border-radius: 8px;
+
+    font-weight: 400;
+    font-size: 21.3333px;
+    line-height: 150%;
+
+    color: #505050;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10.67px;
+
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form-checkbox input{
+    box-sizing: border-box;
+
+    width: 21.33px;
+    height: 21.33px;
+      
+    background: #FFFFFF;
+    border: 1.33333px solid #282938;
+    border-radius: 5.33333px;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+
+.form-checkbox label{
+    font-weight: 400;
+    font-size: 18.6667px;
+    line-height: 150%;
+  
+    color: #282938;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.submit-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18.6667px 42.6667px;
+    gap: 10.67px;
+     
+    background: #5E3BEE;
+    border-radius: 8px;
+    
+    font-weight: 400;
+    font-size: 21.3333px;
+    line-height: 150%;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;  
+}
+
+
+@media screen and (max-width: 1032px) {
+    .inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
