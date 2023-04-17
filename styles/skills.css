@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --primary-color: #5E3BEE;
+    --secondary-color: #000;
+    --primary-font: 'Roboto', sans-serif;
+}
+
+
+
+.my-skils{
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    align-items: flex-start;
+    padding: 149.333px 85.3333px;
+    gap: 106.67px;
+
+    height: 906px;
+
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 21.33px;
+}
+
+.skill-title h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.3333px;
+    line-height: 150%;
+
+    color: #282938;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.skill-title div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+
+.skill-title div h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+
+    color: #282938;
+}
+
+.my-skils .skill-row{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 42.67px;
+    
+}
+
+.skill-row-section-container{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    width: 0%;
+    height: 100%;
+
+    /* BG Shade */
+
+    background: #F5FCFF;
+    /* Primary */
+
+    border-bottom: 4px solid #5E3BEE;
+    border-radius: 10.6667px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1
+}
+
+.skill-row-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+
+.skill-row-section .skill-row-img-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13.3333px;
+    gap: 13.33px;
+
+    width: 80px;
+    height: 80px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10.6667px;
+}
+
+.skill-row-section .skill-row-img-wrapper img{
+    width: 53.33px;
+    height: 53.33px;
+}
+
+
+@media screen and (max-width: 1032px) {
+    .my-skils{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    .my-skils .skill-row{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start; 
+    }
+
+    .skill-row-section-container{
+        width: 100%;
+    }
+}
